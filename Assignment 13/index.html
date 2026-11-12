@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 13 - Weekly Timetable</title>
+    <style>
+        .box {
+            border: 1px solid #88a888;
+            padding: 25px 60px;
+            width: 80%;
+            margin: 20px auto;
+            font-family: Georgia, serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        th, td {
+            border: 1px solid #888888;
+            padding: 5px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <table>
+            <caption>Weekly Timetable</caption>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>9-10</th>
+                    <th>10-11</th>
+                    <th>11-12</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mon</td>
+                    <td>Maths</td>
+                    <td>HTML</td>
+                    <td rowspan="2">Web Lab</td>
+                </tr>
+                <tr>
+                    <td>Tue</td>
+                    <td>DBMS</td>
+                    <td>OS</td>
+                </tr>
+                <tr>
+                    <td>Wed</td>
+                    <td colspan="3">Seminar</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
